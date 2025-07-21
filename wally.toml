@@ -6,6 +6,6 @@ realm = "shared"
 
 [dependencies]
 roact = "roblox/roact@1.4.4"
+signal = "sleitnick/signal@2.0.3"
 
 [server-dependencies]
-signal = "sleitnick/signal@2.0.3"
