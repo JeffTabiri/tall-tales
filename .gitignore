@@ -8,3 +8,4 @@ Packages/
 ServerPackages/
 sourcemap.json
 wally.lock
+.vscode/settings.json
