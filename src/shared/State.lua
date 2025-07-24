@@ -4,9 +4,11 @@ State.__index = State
 --[[ 
 	Represents player state,
 ]]
-function State.new()
+function State.new(name: string)
 	local self = setmetatable({}, State)
 	self.changeState = nil
+    self.name = name
+	self.connections = {}
 	return self
 end
 
